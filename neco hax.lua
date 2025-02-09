@@ -268,12 +268,7 @@ local function TWFBJZF_fake_script() -- waappdestroyer.Script
 	local script = Instance.new('Script', waappdestroyer)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		for _,v in pairs(workspace:GetDescendants()) do
-  if v:IsA("BasePart") then
-  workspace.GameService.UpdateObjectProperty:FireServer(v,"BrickColor",BrickColor.random())
-    workspace.GameService.UpdateObjectProperty:FireServer(v,"Velocity",Vector3.new(math.random(-50,50),math.random(-50,50),math.random(-50,50))
-  end
-end
+            print("no work sAD")
 	end)
 end
 coroutine.wrap(TWFBJZF_fake_script)()
